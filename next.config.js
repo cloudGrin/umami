@@ -3,7 +3,7 @@ require('dotenv').config();
 const path = require('path');
 const pkg = require('./package.json');
 
-const basePath = process.env.BASE_PATH;
+const basePath = '/umami';
 const collectApiEndpoint = process.env.COLLECT_API_ENDPOINT;
 const cloudMode = process.env.CLOUD_MODE;
 const cloudUrl = process.env.CLOUD_URL;
